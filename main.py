@@ -19,7 +19,7 @@ w.close()
 # Edit
 s = numpy.fromstring(s, numpy.int16)
 s = struct.pack('h'*len(s), *s)
-s_loudpart = numpy.fromstring(s_loudpart, numpy.int16) // 10 * 35
+s_loudpart = numpy.fromstring(s_loudpart, numpy.int16) // 10 * 35 #3.5 is amplitude multiplier selected empirically 
 s_loudpart = struct.pack('h'*len(s_loudpart), *s_loudpart)
 
 # Save
