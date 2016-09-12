@@ -1,3 +1,3 @@
-# autoDBadder
-just another useless thing
-yet useless, like me
+# DBadder
+This simple script is adding to your input.wav file some "loud glitchy sound" effect from certain moment.
+The result is in output.wav file.
